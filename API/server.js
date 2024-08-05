@@ -17,4 +17,6 @@ app.post('/calculate', (req, res) => {
     res.json({ estimatedCost: 1000 }); // Exemplo de resposta
   });
   
-  
+  app.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
+  });
