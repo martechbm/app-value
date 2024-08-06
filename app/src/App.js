@@ -1,15 +1,15 @@
 // import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import CalculatorPage from './pages/CalculatorPage';
 
 function App() {
   return (
     <Router>
-      <Switch>
+      <Routes>
         <Route path="/" exact component={CalculatorPage} />
-      </Switch>
+      </Routes>
     </Router>
   );
 }
