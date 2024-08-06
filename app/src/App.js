@@ -9,7 +9,6 @@ function App() {
     <Router>
       <Switch>
         <Route path="/" exact component={CalculatorPage} />
-        {/* Adicionar mais rotas se necessário */}
       </Switch>
     </Router>
   );

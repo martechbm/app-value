@@ -23,7 +23,8 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "react/react-in-jsx-scope": "off"
   },
   "browserslist": {
     "production": [
